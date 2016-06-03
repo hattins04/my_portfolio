@@ -1,0 +1,157 @@
+.navbar-brand  {
+  padding-left: 100px;
+  font-size: 25px;
+
+}
+.navbar-right {
+  margin-right: 80px;
+  font-size: 17px;
+  padding-top: 30px;
+
+}
+.nav .navbar-nav {
+font-family: 'Rokkitt', serif;
+color: #000;
+
+}
+.navbar-header {
+  padding-top: 30px;
+}
+.page-scroll {
+  transition: 0.3s ease;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #FFA500;
+  border-bottom: 4px solid #FFA500;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.page-scroll:hover {
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  padding: 6px 0;
+}
+.about-me h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+}
+.info-me {
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+#more-about{
+  padding-top: 30px;
+}
+#more-about h1 {
+  font-size: 35px;
+  font-family: 'Rokkitt', serif;
+
+}
+#more-about p {
+  font-size: 20px;
+  font-family: 'Rokkitt', serif;
+}
+#about {
+  padding-top: 180px;
+}
+#about img {
+  width:70%;
+  height: 70%;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+#mainNav {
+  height: 100px;
+  background-color: #fff;
+
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.fancy2a {
+  border-width: 0 0 5px;
+  border-style: solid;
+border-image: url('http://www.w3.org/TR/css3-background/border.png') 27 fill stretch;
+}
+
+
+hr.style-one {
+  height: 12px;
+ border: 0;
+ box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.black-background {
+  background-color:#000000;
+}
+.white {
+  color:#ffffff;
+}
+.home-buttons {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.btn-lg {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+footer h1 {
+  font-size: 20px;
+}
+footer h2 {
+  font-size: 20px;
+}
+footer h3 {
+  font-size: 20px;
+}
+footer ul li {
+  align-items: center;
+  color: #000;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+
+@media(min-width:1200px) {
+
+}
+@media(max-width:991px) {
+.carousel-caption {
+display: none;
+}
+}
+@media(min-with:768px)  (max-width: 990px) {
+
+}
+@media(max-width:768px) {
+.navbar-brand {
+  position: absolute;
+  padding-left: 30px;
+}
+
+}
+@media(max-width: 500px)  {
+
+}
